@@ -1,0 +1,12 @@
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.csproj.CoreCompileInputs.cache
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.AssemblyInfoInputs.cache
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.AssemblyInfo.cs
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\bin\Debug\netstandard2.0\DrawNew.deps.json
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\bin\Debug\netstandard2.0\DrawNew.dll
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\bin\Debug\netstandard2.0\DrawNew.pdb
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.dll
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.pdb
+D:\Root\Škola\PRG\XAMARIN\DrawNew\DrawNew\DrawNew\obj\Debug\netstandard2.0\DrawNew.csprojAssemblyReference.cache

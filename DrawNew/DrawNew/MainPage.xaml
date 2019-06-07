@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:tt="clr-namespace:TouchTracking.Forms;assembly=TouchTracking.Forms"
+             x:Class="DrawNew.MainPage">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+          <!--Vytvoření canvasu-->
+            <Grid BackgroundColor="White"
+              VerticalOptions="FillAndExpand">
+                <skia:SKCanvasView x:Name="canvasView"
+                               PaintSurface="OnCanvasViewPaintSurface" />
+                <Grid.Effects>
+                    <tt:TouchEffect Capture="True"
+                                TouchAction="OnTouchEffectAction" />
+                </Grid.Effects>
+            </Grid>
+
+            <Grid>
+              <!--Definice struktury gridu-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+            
+            <!--Jednotlivá tlačítka akcí-->
+            <Button Text="Clear"
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="50, 5"
+                Clicked="OnClearButtonClicked" />
+
+            <Button Text="Red"
+                Grid.Row="0"
+                Grid.Column="1"
+                Margin="50, 5"
+                Clicked="OnRedButtonClicked" />
+
+            <Button Text="Blue"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="50, 5"
+                Clicked="OnBlueButtonClicked" />
+
+            <Button Text="Save"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="50, 5"
+                Clicked="OnSaveButtonClicked" />
+
+            <Button Text="Bigger"
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="50, 5"
+                Clicked="OnBiggerButtonClicked" />
+
+            <Button Text="Pick"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="50, 5"
+                Clicked="OnPickButtonClicked" />
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
